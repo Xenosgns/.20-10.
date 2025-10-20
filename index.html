@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script/musicControl.js"></script>
+    <link rel="stylesheet" href="/css/tranggoc.css">
+    <title>20/10</title>
+
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="background-image"></div>
+
+    <div class="falling-leaves">
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+            <div class="heart-container">
+                <div class="heart">
+                    <div class="sparkle"></div>
+                    <div class="sparkle"></div>
+                    <div class="sparkle"></div>
+                    <div class="sparkle"></div>
+                </div>
+            </div>
+            <h2 class="modal-title">Hẹ lưu em</h2>
+            <p class="modal-subtitle">20/10 vui vẻ nhá</p>
+            <button class="modal-button" onclick="showQuestion()">OK</button>
+        </div>
+    </div>
+
+    <div class="question-content" id="questionContent">
+        <h2 class="question-title">Bé có muốn đọc tâm thư của anh không nè? 💌</h2>
+        <button class="btn-yes" onclick="showLetter()">Có</button>
+        <button class="btn-no" id="noButton" onclick="moveButton()">Không</button>
+    </div>
+
+
+</body>
+
+</html>
+<script src="/script/tranggoc.js"></script>
